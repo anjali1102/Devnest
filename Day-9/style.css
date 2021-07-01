@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    background-color: #FAF1E6;
+    width: 100vw;
+    height: 100vh;
+
+    place-items: center;
+
+    text-align: center;
+    font-size: 0.8em;
+    
+}
+.container{
+    width: 400px;
+    height: 50px;
+    
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    
+}
+
+#Booked-Seats{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+#Remaining-Seats{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+#box{
+    height: 400px;
+    width: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgb(173, 95, 22);
+
+}
+
+.seats{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+
+    border: 1px solid black;
+    border-radius: 30% 30% 0% 0%;
+    
+}
+
+.spacer{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    
+    border-radius: 30% 30% 0% 0%;
+}
+
+.booked{
+    background-color: darkgray;
+}

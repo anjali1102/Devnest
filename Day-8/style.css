@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: burlywood;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.container-child{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.container-child-on{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+}
