@@ -1,0 +1,47 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    place-items: center;
+}
+
+#title #heading{
+    margin-left: 45%;
+}
+#title #subheading{
+    margin-left: 43%;
+}
+
+#container{
+    width: 80%;
+    margin-left: 20%;
+}
+
+.sections{
+    color: teal;
+}
+.categories{
+    font-weight: bold;
+    font-size:larger;
+    color: tomato;
+}
+
+#left-bar{
+    float: left;
+    width: 25%;
+    margin-left: 10%;
+}
+.vertical-bar{
+    float: left;
+    background-color:darkcyan;
+    height: 70vw;
+    width: 0.1em;
+    margin-left: auto;
+}
+
+#right-bar{
+    float: right;
+    width: 25%;
+    margin-right: 30%;
+}
+
